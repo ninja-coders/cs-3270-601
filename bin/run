@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# vim: filetype=sh:
+
+IMAGE_NAME=${IMAGE_NAME:-cs3270}
+
+cd "$(dirname $0)"; cd ..;
+
+USER=$(whoami)
+USER_ID=$(id -u)
+GROUP_ID=$(cut -d: -f3 < <(getent group $USER))
+
+echo -e "$USER_ID:$GROUP_ID"
+
+docker run -it --rm -u $USER_ID:$GROUP_ID -v $PWD:/notebook -p 8888:8888 $IMAGE_NAME "$@"

@@ -1,0 +1,71 @@
+#!/usr/bin/env ruby
+# vim: set filetype=ruby :
+
+require 'yaml'
+require 'optparse'
+
+def pull_repo(id, clone_url, dest)
+  full_dir = "#{dest}/#{id}"
+  puts "cloning #{id} to #{dest} #{full_dir} - started"
+  if File.directory?(full_dir) then
+    `cd #{full_dir} && git checkout master && git pull`
+  else
+    `cd #{dest} && git clone #{clone_url} #{id}`
+  end
+  puts "cloning #{id} to #{dest} - completed"
+end
+
+def branch_for_assignment(id, dest, homework)
+  full_dir = "#{dest}/#{id}"
+  branch_name = "grading-#{homework}"
+  puts "creating branch #{branch_name} for #{id}"
+  `cd #{full_dir} && git checkout -b #{branch_name}`
+	puts "Creating a pr by adding temporary file"
+	`cd #{full_dir} && touch grading && git commit -m 'Starting PR'`
+  `cd #{full_dir} && hub pull-request -m 'Gradine homework #{homework}'`
+	`cd #{full_dir} && git rm grading && git commit -m 'Removed temporary file' && git push --force`
+end
+
+options = {}
+OptionParser.new do |opts|
+  opts.banner = "Usage: #{ARGV[0]} [options]"
+
+  opts.on("-v", "--[no-]verbose", "Run verbosely") do |v|
+    options[:verbose] = v
+  end
+
+	opts.on("-d", "--dest [DEST]", "Destination folder") do |dest|
+		options[:dest] = dest
+	end
+
+	opts.on("-u", "--update", "Update repos") do |u|
+		options[:update] = u
+	end
+
+	opts.on("-g", "--grade [HOMEWORK]", "Homework to start grading") do |hw|
+		options[:homework] = hw
+	end
+
+ 	opts.on_tail("-h", "--help", "Show this message") do
+    puts opts
+    exit
+  end
+end.parse!
+
+dir = File.expand_path(File.dirname(__FILE__))
+repos = YAML.load_file("#{dir}/repos.yml")["cs3270"]
+
+if options[:update] then
+	repos.each do |key, value|
+		puts "Grading #{key}"
+		pull_repo(key, value['clone'], options[:dest])
+	end
+end
+
+if options[:homework] then
+	repos.each do |key, value|
+		puts "Creating grade branch for homework #{options[:homework]}"
+		branch_for_assignment(key, options[:dest], options[:homework])
+	end
+end
+

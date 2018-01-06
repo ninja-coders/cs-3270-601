@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# vim: filetype=sh:
+
+IMAGE_NAME=${IMAGE_NAME:-cs3270}
+
+cd "$(dirname $0)"; cd ..;
+
+docker build -t $IMAGE_NAME . -f docker/Dockerfile
+

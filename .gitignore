@@ -1,0 +1,14 @@
+.ipynb_checkpoints/
+*.swp
+*.pyc
+*.bak
+tmp/
+answers/
+!assignments/answers/
+.env/
+.venv/
+.DS_Store
+workspace
+.project
+.pydevproject
+

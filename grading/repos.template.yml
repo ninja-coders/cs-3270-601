@@ -1,0 +1,7 @@
+cs3270:
+    STUDENT_ID:
+       url: <github https url>
+       clone: <github clone url>
+    1234553:
+        url: https://github.com/sample-name/assignments
+        clone: git@github.com:sample-name/assignments
