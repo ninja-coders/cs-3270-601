@@ -18,6 +18,7 @@ the python programming language.
 * Twitter - [@mikekwright](https://twitter.com/mikekwright)    
 * Remind - SMS - [https://www.remind.com/join/cs3270](https://www.remind.com/join/cs3270)    
 * Slack - [UVU CS](https://uvucs.slack.com) (Requires account creation with uvu.edu email)  
+  - [Slack join link](https://join.slack.com/t/uvucs/signup?x=x-294364168880-294948358243)
 
 ### Slides
 
