@@ -162,3 +162,10 @@ quiz and no penalty to your final grade by missing them.  As such **there is no 
 Quizzes themselves will mostly be unannounced and have the potential to cover any material either discussed,
 or even implied, in the course.  The main purpose is to spark discussions or even give you new topics 
 to research on your own outside of class.   
+
+## Helpful Links
+
+* [Learning Git using GitImmersion](http://gitimmersion.com/)
+* [Learning Git using github](https://try.github.io/levels/1/challenges/1)
+* [Learning vim with VimAdventures](https://vim-adventures.com/)
+
