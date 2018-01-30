@@ -36,7 +36,7 @@ To work with the assignments for this course you will need to accomplish the bel
 
 1. Obtain github account with private access   
 2. Create a new `private` repo named `<uvuid>-assignments` (do not select Initialize README or select anything from the dropdowns)   
-3. Add the user `mikekwright` as a user with read access to the repo   
+3. Add the user `mikekwright` as a collaborator to the repo   
 4. Email me the created repo to the address `mkwright+uvu@gmail.com`   
 5. Clone the repo to your local machine.   `git clone <your url>`   
 6. Navigate to the repo directory.  `cd <uvuid>-assignments`   
