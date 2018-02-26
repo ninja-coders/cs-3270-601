@@ -36,7 +36,7 @@ some of the weeks will be shorter than others (given tests, vacataion days, etc)
 overlap between weeks on content.   
 
 1. Python Introduction - Quick Overview of major features. (book chap. 1)
-2. Git / IPython / Jupyter (book pg. 386-391, pg. 339-342)) and Py Ingredients - Numbers, String and Variabls (book chap. 2)
+2. Git / IPython / Jupyter (book pg. 386-391, pg. 339-342)) and Py Ingredients - Numbers, String and Variables (book chap. 2)
 3. Py Filling - Lists, Sets, Tuples and Dictionaries (book chap. 3)
 4. Py Code Structure - Conditionals, Loops and List Comprehensions (book 4 pg. 71-89)
 5. Py Code Structure - Functions, Generators, Decorators and Exceptions (book 4 pg. 89-110)
@@ -69,7 +69,7 @@ while in class, as well as out of class.
 
 There will also be a large amount of effort that is
 placed on following Software Engineering principles that are used in the field in hopes of 
-acclimatizing you more professional development.    
+acclimatizing you to more professional development.    
 
 Finally since we are all attending a University there will be a requirement that all of your
 interactions with professors, TA's and students will be done with respect.   
@@ -127,7 +127,7 @@ receive any credit for the assignment.
 ### Plagarism
 
 In this class you will need to have your own code typed out, not copied from someone else.  This does
-not mean that you are not able to work with each other to compelte a project, only that you will be
+not mean that you are not able to work with each other to complete a project, only that you will be
 responsible for your own assignments and for understanding the content yourself.  
 
 ### Development System

@@ -46,15 +46,15 @@ To work with the assignments for this course you will need to accomplish the bel
 10. Add the new file to staged `git add student`
 11. Commit the new file `git commit -m "Added student file"`   
 12. Push the repo with commits to your github repo `git push origin master`   
-13. Navigate to the repo in the browser of your choice and make sure it is visible 
+13. Navigate to the repo in the browser of your choice and make sure it is visible
 14. Install the class python dependencies (this assumes you have python already installed) **NOTE: your pip may be called pip3 or pip3.6**
 
     pip install -r requirements.txt
-    
+
 15. Test out access to jupyter by running the below command
 
     jupyter notebook
-    
+
 16. Open browser to [localhost:8888](localhost:8888) if browser is not automatically opened for you.
 
 ## Each Assignment
@@ -64,12 +64,12 @@ overall grading notes.  The flow for each assignment is below.
 
 1. Make sure you are on your master branch `git checkout master`
 2. Pull all changes from the upstream repo `git pull upstream master`
-3. Checkout a new branch for the assignment `git checkout -b assigment-<assignmnet number>`
+3. Checkout a new branch for the assignment `git checkout -b assignment-<assignment number>`
 4. Complete the assignment
 5. Stage the appropriate files for the assignment `git add <file>`
 6. Commit the completed assignment `git commit -m "<A message about completing the assignment"`
 7. Push the changes to your branch `git push origin assignment-<assignment number>`
-8. Create a pull request [https://help.github.com/articles/creating-a-pull-request/](https://help.github.com/articles/creating-a-pull-request/). 
+8. Create a pull request [https://help.github.com/articles/creating-a-pull-request/](https://help.github.com/articles/creating-a-pull-request/).
 9. Submit the pull request url
 10. Once graded merge the pull request to your master branch
 11. Pull the latest changes `git pull origin master`
