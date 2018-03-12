@@ -12,3 +12,4 @@ workspace
 .project
 .pydevproject
 *.*~
+.vscode
