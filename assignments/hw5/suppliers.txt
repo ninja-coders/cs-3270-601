@@ -1,0 +1,7 @@
+suppliers
+sno,sname,status,city
+s1,Smith,20,London
+s2,Jones,10,Paris
+s3,Blake,30,Paris
+s4,Clark,20,London
+s5,Adams,30,Athens
