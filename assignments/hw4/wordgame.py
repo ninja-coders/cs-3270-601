@@ -22,18 +22,15 @@ if __name__ =="__main__":
     seed(seeds)
 
 def main():
-
     # reads from a file obj
     file = open("words.txt","r")
     # read in all words and strips out the white space for every line in file
     AllWords = list(line.strip() for line in file)  # strip out the \n new line chars and make a list of all words in  the file
     file.close()
 
-
     print("Welcome to my Guessing Game")
     print("Please enter a 'lo' and a 'hi' separated by a space")
     print("Enter 'q' to quit")
-
 
 # the Outer game flag the the 'will begin agian' loop
     beginAgain = True
@@ -50,10 +47,9 @@ def main():
                 print("invalid range, try again.")
 
 
-        # choise pulls a random word from the list of AllWords read from the file
+        # choice() pulls a random word from the list of AllWords read from the file
         someWord = choice(AllWords)
         print(someWord)
-        #print()
         print()
 
         # used the sample funtion to pull one letter at a time without repeats for the lenths of the word and join it to an empty string. in the the words letters are shuffled and rejoined into one string of the same length as the original word
@@ -64,7 +60,6 @@ def main():
         possible_words = list(set([words for words in ["".join(p) for i in range(1, len(someWord)+1) for p in permutations(someWord, i)] if len(words) >= 2 and words in AllWords]))
         possible_words.sort() # sort first alphabetically
         possible_words.sort(key=len) # next resort by length
-
         print()
         print()
 
@@ -81,15 +76,11 @@ def main():
                     temp.sort()
             li1.append(temp)
             li2.append(tempGuess)
-
-        #print(li1)
-        #print(li2)
         # a new list of just the proper range of entries so as to later compare as a value
         li3 = []
         for i in li1:
             for j in i:
                 li3.append(j)
-
         print(li3)
 
     # Inner Game loop to play once until all guesses have been  made
@@ -99,7 +90,7 @@ def main():
                 ind = li1[len(userGuess) - lo].index(userGuess)
                 li2[len(userGuess) - lo][ind]= userGuess  # li2[len(userGuess) - lo].__setitem__(ind, userGuess)
                 li3.remove(userGuess)
-                print(li3)
+                #print(li3)
                 print("Correct!")
                 print(li2)
             elif userGuess == "q":
@@ -111,79 +102,8 @@ def main():
             else: # (userGuess not in possible_words)
                 print("guess again...")
 
-        #print(li2)
-        #flag = False if success == len(possible_words) else True
         if not len(li3):
             print("Congrats on winning!")
             y = input("Play again? press y: ")
             beginAgain = True if y == 'y' else False
-
-
-
 main()
-
-
-
-'''
-# Cody's Code
-    
-    li1 = []
-    li2 = []
-    for word_length in range(lo, (hi + 1)):
-        temp = list()
-        tempGuess = list()
-        for word in possible_words:
-            if word_length == len(word):
-                temp.append(word)
-                tempGuess.append("_ " * len(word))
-                temp.sort()
-        li1.append(temp)
-        li2.append(tempGuess)
-    
-    
-    userGuess = input("Enter a guess: ")
-    if userGuess in possible_words:
-        ind = li1[len(userGuess)-lo].index(userGuess)
-        li2[len(userGuess)-lo].insert(ind, userGuess)
-    
-    print(li2)
-    
-    
-    
-    print("these are the words for each count starting at lo and approaching hi: ")
-    print(li1)
-    print()
-    print("these are all the permutations of the word sorted by length: ")
-    print(li2)
-'''
-# if i can make the sets created  to be equal were in business
-'''
-# My code
-
-    li3 = []
-    li4 = []
-    for length, group in groupby(possible_words, len):
-
-        quanto = len(list(group))
-        print("--> There are ", quanto , " items of length", length," in your list to guess: ", (["_ " * length ]) * quanto)
-        print(list(group))
-        li3.append( {word for word in list(group)})
-        li4.append(("_ " * length) * quanto)
-        print()
-
-
-    print("this list will be my display list: ")
-    print(li4)
-    print()
-    print("here is a list of lists by length: ")
-    print(li3)
-
-    userGuess = input("Enter a guess: ")
-    if userGuess in possible_words:
-        ind = li3[len(userGuess)-lo].index(userGuess)
-        li4[len(userGuess)-lo].insert(ind, userGuess)
-
-    print(li4)
-
-
-'''
