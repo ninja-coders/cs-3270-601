@@ -1,0 +1,168 @@
+Charles-Allisons-MacBook-Pro-2:Hw6 chuck$ python view.py yankee.txt 20
+[Page 1]:
+
+A Connecticut Yankee in King Arthur's Court, Complete
+by
+Mark Twain (Samuel Clemens)
+
+Part 1 out of 7
+
+A CONNECTICUT YANKEE IN KING ARTHUR'S COURT
+
+by
+
+MARK TWAIN
+(Samuel L. Clemens)
+
+
+
+
+PREFACE
+
+The ungentle laws and customs touched upon in this tale are
+
+Command [u,d,t,b,#,q]: d
+[Page 2]:
+historical, and the episodes which are used to illustrate them
+are also historical. It is not pretended that these laws and
+customs existed in England in the sixth century; no, it is only
+pretended that inasmuch as they existed in the English and other
+civilizations of far later times, it is safe to consider that it is
+no libel upon the sixth century to suppose them to have been in
+practice in that day also. One is quite justified in inferring
+that whatever one of these laws or customs was lacking in that
+remote time, its place was competently filled by a worse one.
+
+The question as to whether there is such a thing as divine right
+of kings is not settled in this book. It was found too difficult.
+That the executive head of a nation should be a person of lofty
+character and extraordinary ability, was manifest and indisputable;
+that none but the Deity could select that head unerringly, was
+also manifest and indisputable; that the Deity ought to make that
+selection, then, was likewise manifest and indisputable; consequently,
+that He does make it, as claimed, was an unavoidable deduction.
+I mean, until the author of this book encountered the Pompadour,
+and Lady Castlemaine, and some other executive heads of that kind;
+
+Command [u,d,t,b,#,q]: d
+[Page 3]:
+these were found so difficult to work into the scheme, that it
+was judged better to take the other tack in this book (which
+must be issued this fall), and then go into training and settle
+the question in another book. It is, of course, a thing which
+ought to be settled, and I am not going to have anything particular
+to do next winter anyway.
+
+MARK TWAIN
+
+
+
+A CONNECTICUT YANKEE IN KING ARTHUR'S COURT
+
+
+A WORD OF EXPLANATION
+
+It was in Warwick Castle that I came across the curious stranger
+whom I am going to talk about. He attracted me by three things:
+his candid simplicity, his marvelous familiarity with ancient armor,
+and the restfulness of his company--for he did all the talking.
+
+Command [u,d,t,b,#,q]: 20
+[Page 20]:
+other fellow, except to make him humble salutation and get no
+response for their pains.
+
+In the town were some substantial windowless houses of stone
+scattered among a wilderness of thatched cabins; the streets were
+mere crooked alleys, and unpaved; troops of dogs and nude children
+played in the sun and made life and noise; hogs roamed and rooted
+contentedly about, and one of them lay in a reeking wallow in
+the middle of the main thoroughfare and suckled her family.
+Presently there was a distant blare of military music; it came
+nearer, still nearer, and soon a noble cavalcade wound into view,
+glorious with plumed helmets and flashing mail and flaunting banners
+and rich doublets and horse-cloths and gilded spearheads; and
+through the muck and swine, and naked brats, and joyous dogs, and
+shabby huts, it took its gallant way, and in its wake we followed.
+Followed through one winding alley and then another,--and climbing,
+always climbing--till at last we gained the breezy height where
+the huge castle stood. There was an exchange of bugle blasts;
+then a parley from the walls, where men-at-arms, in hauberk and
+morion, marched back and forth with halberd at shoulder under
+
+Command [u,d,t,b,#,q]: b
+[Page 100]:
+When Sir Galihodin saw that, he bad Sir Gareth keep him,
+and Sir Gareth smote him to the earth. Then Sir Galihud
+gat a spear to avenge his brother, and in the same wise
+Sir Gareth served him, and Sir Dinadan and his brother
+La Cote Male Taile, and Sir Sagramore le Disirous, and
+Sir Dodinas le Savage; all these he bare down with one
+spear. When King Aswisance of Ireland saw Sir Gareth
+fare so he marvelled what he might be, that one time
+seemed green, and another time, at his again coming,
+he seemed blue. And thus at every course that he rode
+to and fro he changed his color, so that there might
+neither king nor knight have ready cognizance of him.
+Command [u,d,t,b,#,q]: d
+[Page 1]:
+
+A Connecticut Yankee in King Arthur's Court, Complete
+by
+Mark Twain (Samuel Clemens)
+
+Part 1 out of 7
+
+A CONNECTICUT YANKEE IN KING ARTHUR'S COURT
+
+by
+
+MARK TWAIN
+(Samuel L. Clemens)
+
+
+
+
+PREFACE
+
+The ungentle laws and customs touched upon in this tale are
+
+Command [u,d,t,b,#,q]: u
+[Page 100]:
+When Sir Galihodin saw that, he bad Sir Gareth keep him,
+and Sir Gareth smote him to the earth. Then Sir Galihud
+gat a spear to avenge his brother, and in the same wise
+Sir Gareth served him, and Sir Dinadan and his brother
+La Cote Male Taile, and Sir Sagramore le Disirous, and
+Sir Dodinas le Savage; all these he bare down with one
+spear. When King Aswisance of Ireland saw Sir Gareth
+fare so he marvelled what he might be, that one time
+seemed green, and another time, at his again coming,
+he seemed blue. And thus at every course that he rode
+to and fro he changed his color, so that there might
+neither king nor knight have ready cognizance of him.
+Command [u,d,t,b,#,q]: t
+[Page 1]:
+
+A Connecticut Yankee in King Arthur's Court, Complete
+by
+Mark Twain (Samuel Clemens)
+
+Part 1 out of 7
+
+A CONNECTICUT YANKEE IN KING ARTHUR'S COURT
+
+by
+
+MARK TWAIN
+(Samuel L. Clemens)
+
+
+
+
+PREFACE
+
+The ungentle laws and customs touched upon in this tale are
+
+Command [u,d,t,b,#,q]: q
+Charles-Allisons-MacBook-Pro-2:Hw6 chuck$ 
