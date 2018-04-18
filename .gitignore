@@ -13,3 +13,5 @@ workspace
 .pydevproject
 *.*~
 .vscode
+__pycache__
+*.db
